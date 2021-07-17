@@ -78,6 +78,7 @@
 ._icon-arrow-down:before,
 ._init .menu-footer__title:before {
   content: "";
+  line-height: 450%;
 }
 
 ._icon-arrow-link:before {
@@ -2046,6 +2047,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -2671,6 +2675,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .slider-arrow {
   pointer-events: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 48px;
   border-radius: 50%;
   background-color: rgba(232, 159, 113, 0.3);
@@ -2682,13 +2689,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   cursor: pointer;
 }
 
-.slider-arrow_prev:before {
+.slider-arrow_prev {
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
 }
 
-.slider-arrow_next:before {
+.slider-arrow_next {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
@@ -2949,6 +2956,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
       -ms-flex-align: center;
           align-items: center;
   line-height: 150%;
+  margin: 0 0 0.3333333333em 0;
 }
 
 .item-product__price {
@@ -4205,19 +4213,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-
-  .row-gallery__item:hover img {
-    -webkit-transition: all 0.8s ease 0s;
-    -o-transition: all 0.8s ease 0s;
-    transition: all 0.8s ease 0s;
-    -webkit-filter: grayscale(0.5);
-            filter: grayscale(0.5);
-  }
-
-  .row-gallery__item:hover:hover {
-    -webkit-filter: grayscale(0);
-            filter: grayscale(0);
   }
 }
 
