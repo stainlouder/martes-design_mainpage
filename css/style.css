@@ -2165,8 +2165,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .actions-header__item_user {
   width: 40px;
   height: 40px;
-  overflow: hidden;
-  border-radius: 50%;
 }
 
 .cart-header__icon {
@@ -3045,6 +3043,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .rooms__text {
   font-weight: 500;
   line-height: 150%;
+  width: 80%;
 }
 
 .rooms__text:not(:last-child) {
@@ -3367,9 +3366,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
 }
 
 .row-gallery_center {

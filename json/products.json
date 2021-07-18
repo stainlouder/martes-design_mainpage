@@ -3,20 +3,20 @@
         {
             "id": 5,
             "url": "#",
-            "title": "Title # 5",
-            "text": "Text # 5",
+            "title": "Green square",
+            "text": "with dark green lines",
             "labels": "",
             "image": "05.jpg",
-            "price": "1000",
-            "priceOld": "2000",
+            "price": "125 €",
+            "priceOld": "",
             "shareUrl": "",
             "likeUrl": ""
         },
         {
             "id": 6,
             "url": "#",
-            "title": "Title # 6",
-            "text": "Text # 6",
+            "title": "Gerr An'",
+            "text": "every grandmother's favorite",
             "labels": [
                 {
                     "type": "sale",
@@ -24,32 +24,32 @@
                 }
             ],
             "image": "06.jpg",
-            "price": "1000",
-            "priceOld": "2000",
+            "price": "15 €",
+            "priceOld": "30",
             "shareUrl": "",
             "likeUrl": ""
         },
         {
             "id": 7,
             "url": "#",
-            "title": "Title # 7",
-            "text": "Text # 7",
+            "title": "Vase for two",
+            "text": "and not only flowers",
             "labels": "",
             "image": "07.jpg",
-            "price": "1000",
-            "priceOld": "2000",
+            "price": "160 €",
+            "priceOld": "",
             "shareUrl": "",
             "likeUrl": ""
         },
         {
             "id": 8,
             "url": "#",
-            "title": "Title # 8",
-            "text": "Text # 8",
+            "title": "Palm feather",
+            "text": "not pulp fiction",
             "labels": "",
             "image": "08.jpg",
-            "price": "1000",
-            "priceOld": "2000",
+            "price": "97 €",
+            "priceOld": "",
             "shareUrl": "",
             "likeUrl": ""
         }
