@@ -6,7 +6,7 @@
 
 Build: Gulp, SASS
 
-SASS:
+CSS & SASS:
 * sections using flex elements;
 * sections using grid elements;
 * and more;
@@ -27,7 +27,7 @@ JS (vendors):
 ## "Martes" главная страница. Онлайн магазин дизайнерских решений.
 [GitHub Pages](https://stainlouder.github.io/martes-design_mainpage/)
 
-SASS:
+CSS & SASS:
 * секции с использованием flex-элементов;
 * секции с использованием grid-элементов;
 * и другое;
